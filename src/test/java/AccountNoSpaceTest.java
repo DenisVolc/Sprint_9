@@ -9,7 +9,7 @@ public class AccountNoSpaceTest {
     @Test
     public void noSpaceAccountTest(){
         Account account = new Account("AlexanderPlushev");
-        assertFalse(account.checkNameToEmboss());
+        assertFalse(!account.checkNameToEmboss());
     }
 
 }
